@@ -1,0 +1,125 @@
+/* General page styling */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: rgba(224, 78, 78, 0.877);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main container */
+#container {
+  background-color: hsl(0, 2%, 11%);
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 450px;
+  padding: 25px 20px 30px;
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  margin-bottom: 20px;
+  color: hsl(0, 0%, 48%);
+  font-size: 1.8rem;
+  letter-spacing: 5px;
+}
+
+/* Input and button area */
+#innerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+#innerDiv input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+#innerDiv input:focus {
+  border-color: #6a11cb;
+}
+
+#innerDiv button {
+  background-color: #6a11cb;
+  color: #fff;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+#innerDiv button:hover {
+  background-color: #4c0ea3;
+}
+
+/* Todo list area */
+#mainDiv {
+  margin-top: 20px;
+  text-align: left;
+}
+
+/* Individual todo item */
+#mainDiv div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  transition: background-color 0.2s ease;
+}
+
+#mainDiv div:hover {
+  background-color: #eef2ff;
+}
+
+/* Todo text */
+#mainDiv span {
+  flex: 1;
+  font-size: 1rem;
+  color: #333;
+  margin-right: 10px;
+  word-break: break-word;
+}
+
+/* Buttons inside todos */
+#mainDiv button {
+  margin-left: 8px;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#mainDiv button:hover {
+  background-color: #5548d9;
+}
+
+#mainDiv button:last-child {
+  background-color: #e63946;
+}
+
+#mainDiv button:last-child:hover {
+  background-color: #c9182a;
+}
