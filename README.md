@@ -17,9 +17,8 @@ This project helped me understand how to dynamically update the DOM and handle u
 While building this project, I learned:
 - DOM Manipulation (creating, appending, deleting elements)
 - Using `querySelector()` and `createElement()`
-- Handling click events and updating UI dynamically
+- Updating UI dynamically
 - Managing data in arrays
-- Using `addEventListener()` instead of inline event handlers
 - Basic CSS styling and layout (Flexbox, gradients, hover effects)
 - Working with Git and GitHub repositories
 
@@ -31,3 +30,20 @@ todo-app/
 ├── index.html # main page
 ├── style.css # styles
 └── index.js # logic and DOM manipulation
+
+---
+
+### Topics Covered
+- DOM manipulation
+- Event handling
+- Dynamic rendering
+- Using Git and GitHub
+- CSS Flexbox & responsive layout
+
+### Challenges Faced
+- Avoiding overlapping elements
+
+### Improvements for Future
+- Add localStorage to save todos
+- Add a dark mode
+- Add checkboxes for marking tasks as done
